@@ -1,0 +1,20 @@
+{
+  "name": "cypress-bootcamp",
+  "version": "1.0.0",
+  "description": "cypress testing project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cypress",
+    "testing",
+    "automation"
+  ],
+  "author": "AN",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.7.0",
+    "prettier": "^2.7.1"
+  }
+}
