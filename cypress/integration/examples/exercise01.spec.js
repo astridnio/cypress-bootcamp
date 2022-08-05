@@ -2,6 +2,9 @@ describe('Exercise 1', () => {
 	it('should load books website', () => {
 		cy.visit('https://books.toscrape.com/index.html', { timeout: 10000 });
 		cy.url().should('include', 'index.html');
+		cy.log('run 1');
+		cy.reload();
+		cy.log('run 2');
 	});
 	it('should count the correct number of categories', () => {
 		cy.get('.side_categories > ul >li >ul >li ').its('length').should('eq', 50);
